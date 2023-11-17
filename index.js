@@ -1,5 +1,5 @@
 //Prompt user to input order using commas.
-const flavors = window.prompt("Enter your order.  Separate order using ","" - no spaces!", "vanilla,vanilla,vanilla,strawberry,coffee,coffee")
+const flavors = window.prompt('Enter your order.  Separate order using "," - no spaces!', 'vanilla,vanilla,vanilla,strawberry,coffee,coffee')
 
 //Assign flavors to array
 const flavorsArr = flavors.split(',')
